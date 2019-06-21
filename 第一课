@@ -1,0 +1,9 @@
+print('---------if判断语句------------')
+temp = input ('不放猜一猜我心目中的数字')
+guess = int(temp)
+if guess == 8:
+    print('卧槽，你猜对了！')
+    print ('猜对了也没奖励！')
+else:
+    print('猜错了，我心目中的数字是8')
+print('不玩了！')
